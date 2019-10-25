@@ -12,16 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activities.ActivityMain"></activity>
-        <activity android:name=".activities.ActivityRestorePassword" />
-        <activity
-            android:name=".activities.ActivityLogin"
-            android:theme="@style/AppThemeNoActionBar">
+        <activity android:name=".activities.ActivitySplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".activities.ActivityMain" />
+        <activity android:name=".activities.ActivityRestorePassword" />
+        <activity
+            android:name=".activities.ActivityLogin"
+            android:theme="@style/AppThemeNoActionBar">
         </activity>
         <activity android:name=".activities.ActivityRegister" />
         <activity android:name=".activities.ActivitySaveInParse" />
