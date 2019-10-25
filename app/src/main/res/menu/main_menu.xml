@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:id="@+id/action_add"
+        android:title="Add Photo"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_add"
+        />
+    <item
+        android:id="@+id/action_likes"
+        android:title="Likes"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_favorite"
+        />
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_account_circle"
+        />
+</menu>

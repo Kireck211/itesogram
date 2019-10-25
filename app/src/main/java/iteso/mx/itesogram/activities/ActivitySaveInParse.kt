@@ -1,4 +1,4 @@
-package iteso.mx.itesogram
+package iteso.mx.itesogram.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import com.parse.ParseObject
 import com.parse.ParseQuery
+import iteso.mx.itesogram.R
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.find
 import org.jetbrains.anko.uiThread

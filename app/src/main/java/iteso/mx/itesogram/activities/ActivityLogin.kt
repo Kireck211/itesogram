@@ -1,8 +1,10 @@
-package iteso.mx.itesogram
+package iteso.mx.itesogram.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
+import iteso.mx.itesogram.R
 import org.jetbrains.anko.find
 import org.jetbrains.anko.startActivity
 
@@ -15,7 +17,11 @@ class ActivityLogin : AppCompatActivity() {
 
         mLogin = find(R.id.activity_login_btn_login)
         mLogin.setOnClickListener {
-            startActivity<ActivitySaveInParse>()
+            startActivity<ActivityMain>()
+        }
+
+        find<TextView>(R.id.activity_login_tv_forgot_action).setOnClickListener {
+            startActivity<ActivityRestorePassword>()
         }
     }
 }
